@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "zoeskin-a7d11": {
+      "hosting": {
+        "zoeskin": [
+          "zoeskin-a7d11"
+        ]
+      }
+    }
+  }
+}

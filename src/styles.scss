@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  color: #157c80;
+}
+
+a {
+  color: #157c80;
+}
+
+b {
+  font-weight: bold !important;
+}
+
+a.text-dark:hover,
+a.text-dark:focus {
+  color: #157c80 !important;
+}
+
+.text-dark {
+  color: #157c80 !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #157c80 !important;
+  border-color: #157c80 !important;
+}
+
+.btn-primary-light {
+  color: #157c80 !important;
+  background-color: white;
+  border-color: #157c80 !important;
+
+  &:hover {
+    color: white !important;
+    background-color: #063638;
+  }
+}
+
+.btn-primary,
+.btn-primary-light {
+  &:focus {
+    box-shadow: 0 0 0 0.2rem #0c5154ad !important;
+    border-color: #0c5154ad;
+  }
+}
+
+.info {
+  width: 100%;
+  background-color: #157c80;
+  color: white;
+  padding: 10px;
+
+  img {
+    height: 40px;
+  }
+}
+
+@media (min-width: 996px) {
+  .ml-10 {
+    margin-left: 120px;
+  }
+}
+
+@media (max-width: 769px) {
+  .resp-row {
+    text-align: center !important;
+  }
+}
+
+.head-admin {
+  background-color: #157c800d;
+  border-radius: 20px;
+}
+
+.table-hover tbody tr:hover {
+  cursor: pointer !important;
+}
